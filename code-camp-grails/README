@@ -1,0 +1,9 @@
+Code Camp Grails
+================
+
+Groovy and Grails implementation for Extreme Startup (https://github.com/rchatley/extreme_startup).
+
+Usage
+-----
+
+Run `grails run-app` and navigate to http://localhost:8080/code-camp-grails/ to try it out manually.
