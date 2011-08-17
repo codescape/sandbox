@@ -1,0 +1,15 @@
+# Mac OS X
+.DS_Store
+
+# Grails
+target/
+
+# IntelliJ
+.idea/
+out/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
