@@ -1,4 +1,0 @@
-m2eclipse-resolve-workspace
-===========================
-
-This simple multi module project consists of three units (parent, consumer and provider) and is used to show a very annoying bug in the current version of the m2eclipse plugin. You can access test sources and test resources while having these projects in eclipse with dependency resolution from workspace activated. Once deactivated the `ConsumerTest` cannot be compiled anymore because the `ProviderTest` is not visible (as it should be generally). To sum it up I would expect the m2eclipse plugin behave the same way as Maven does when used on the console but it does not.
