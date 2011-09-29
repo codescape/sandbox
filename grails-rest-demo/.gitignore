@@ -1,0 +1,8 @@
+# Grails
+target/
+stacktrace.log
+
+# Eclipse
+.settings/
+.classpath
+.project
