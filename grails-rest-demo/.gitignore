@@ -6,3 +6,7 @@ stacktrace.log
 .settings/
 .classpath
 .project
+
+# IntelliJ IDEA
+.idea/
+*.iml

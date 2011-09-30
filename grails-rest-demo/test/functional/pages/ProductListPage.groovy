@@ -8,6 +8,8 @@ class ProductListPage extends Page {
 
     static content = {
         heading { $("h1") }
+        productTable { $("div.list table", 0) }
+		productRows(required: false) { productTable.find("tbody").find("tr") }
     }
 
 }

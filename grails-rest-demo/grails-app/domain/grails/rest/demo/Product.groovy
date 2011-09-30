@@ -7,7 +7,7 @@ class Product {
 
     static constraints = {
         name(blank: false)
-        price(min: 0.0)
+        price(min: 0.01)
     }
 
 }

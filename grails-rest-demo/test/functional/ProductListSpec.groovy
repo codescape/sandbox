@@ -1,16 +1,15 @@
 import geb.spock.GebReportingSpec
-import spock.lang.*
-import pages.*
+import pages.ProductListPage
 
-@Stepwise
 class ProductListSpec extends GebReportingSpec {
 
-    def "Product list shows all expected entries"() {
+    def "Product list page shows all currently known products"() {
         when:
         to ProductListPage
-    
+
         then:
         heading.text() == "Productlist"
+        productRows.size() == 2
     }
 
 }
