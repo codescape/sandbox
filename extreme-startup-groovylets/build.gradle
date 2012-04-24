@@ -1,0 +1,10 @@
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    groovy "org.codehaus.groovy:groovy:1.8.6"
+    compile "org.mortbay.jetty:jetty-embedded:6.1.26"
+}

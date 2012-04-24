@@ -1,0 +1,12 @@
+# Grails
+target/
+stacktrace.log
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
