@@ -1,9 +1,0 @@
-Testing JavaScript with Jasmine and Maven
-=========================================
-
-Usage
------
-
-Run the following Maven goal and open http://localhost:8234 in your browser:
-
-    mvn jasmine:bdd
